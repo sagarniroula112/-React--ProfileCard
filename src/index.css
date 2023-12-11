@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/public/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  height: 570px;
+  padding: 80px;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  backdrop-filter: blur(20px); /* Very cool */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  overflow: hidden;
+  background-color: rgb(37, 37, 37);
+}
+
+.avatar {
+  height: 10rem;
+  display: block;
+  width: 11rem;
+  border-radius: 80px;
+  /* border: 2px solid rgb(102, 99, 99); */
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: white;
+  margin-top: 25px;
+}
+
+h4 {
+  color: white;
+  margin-top: 6px;
+}
+
+.desc {
+  color: white;
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.button {
+  display: inline-block;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  margin-top: 30px;
+  padding: 13px 40px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(98, 97, 97); /* Change to your preferred hover color */
+  color: rgb(255, 255, 255); /* Change to your preferred text color on hover */
+}
+
+.skillsetcontainer {
+  margin-top: 11px;
+}
+
+.skill-set {
+  margin-top: 3px;
+}
+
+.skill {
+  /* background-color: aqua; */
+  border-radius: 12px;
+  padding: 3px 5px;
+  margin: 0 25px;
+}
+
+/* .skill span {
+  
+} */
